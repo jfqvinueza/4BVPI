@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div class="container-fluid ">
+  <div class="row">
+    <div class="col-2 sidebar bg-warning">
+      <ul class="nav flex-column">
+        <li class="nav-item bg-light opacity-50">
+          <a class="nav-link" routerLink="/tareas">Tareas</a>
+        </li>
+        <li class="nav-item bg-light opacity-50">
+          <a class="nav-link" routerLink="/agenda">Agenda</a>
+        </li>
+        <li class="nav-item bg-light opacity-50">
+          <a class="nav-link" routerLink="/perfil">Perfil</a>
+        </li>
+        <li class="nav-item bg-light opacity-50">
+          <a class="nav-link" routerLink="/configuracion-perfil">Configuración de perfil</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-9 content imagenfondo">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

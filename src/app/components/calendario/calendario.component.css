@@ -1,0 +1,14 @@
+.calendar {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.calendar th,
+.calendar td {
+  text-align: center;
+  padding: 10px;
+}
+
+.calendar .today {
+  background-color: #ffc107;
+}

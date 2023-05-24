@@ -1,0 +1,15 @@
+.sidebar {
+  height: 80vh; /* Establece la altura del sidebar al 100% del viewport height */
+  overflow-y: auto; /* Agrega desplazamiento vertical si el contenido excede la altura */
+}
+
+.imagenfondo {
+  background-image: url('https://img.freepik.com/vector-premium/paisaje-isla-roca-venado-pajaro-volador-rocas-brillantes-ilustracion-escena-naturaleza_684242-8.jpg');
+  background-size: cover;
+  background-position: right;
+  height: 80vh;
+  width: 163vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
